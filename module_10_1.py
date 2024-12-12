@@ -7,8 +7,7 @@ def write_words(word_count, file_name) :
             with open(file_name, 'a', encoding='utf-8') as file :
                     file.write(f'Какое то слово № {i}\n')
                     time.sleep(0.1)
-    file.close()
-    print(f'Заверщилась запись в файл {file_name}')
+    print(f'Завершилась запись в файл {file_name}')
 
 started_at1 = time.time()
 
